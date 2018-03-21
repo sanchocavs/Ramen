@@ -71,7 +71,7 @@ h3 {
   background: rgba(238, 238, 238, 0.6);
 }
 .resume .base .profile {
-  background: #ff7438;
+  background: #4f4f4f;
   padding: 30px 15px 5px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -80,7 +80,7 @@ h3 {
 .resume .base .profile::after {
   content: "";
   position: absolute;
-  background: #ff7438;
+  background: #4f4f4f;
   width: 100%;
   height: 30px;
   bottom: -15px;
@@ -106,16 +106,16 @@ h3 {
   line-height: 24px;
 }
 .resume .base .contact div a:hover {
-  color: #e07a5f;
+  color: #00FFFF;
 }
 .resume .base .contact div a:hover span::after {
   width: 100%;
 }
 .resume .base .contact div:hover i {
-  color: #e07a5f;
+  color: #00FFFF;
 }
 .resume .base .contact div i {
-  color: #ffca01;
+  color: #4f4f4f;
   /*change the little icons*/
   width: 20px;
   height: 20px;
@@ -130,7 +130,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: #e07a5f;
+  background: #00FFFF;
   height: 1px;
   width: 0;
   bottom: 0;
@@ -146,7 +146,7 @@ h3 {
   vertical-align: text-bottom;
 }
 .resume .base .follow .box a:hover i {
-  background: #e07a5f;
+  background: #4f4f4f;
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -156,13 +156,13 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #ffca01;
+  background: #4f4f4f;
   /*change the color of the social media icons*/
   width: 60px;
   height: 60px;
   border-radius: 50%;
   line-height: 60px;
-  color: #fcfcfc;
+  color: #00FFFF;
   margin: 0 10px 10px 10px;
   transition-duration: 0.3s;
 }
@@ -194,7 +194,7 @@ h3 {
 }
 .resume .func h3 i {
   color: #fcfcfc;
-  background: #ff7438;
+  background: #4f4f4f;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -222,7 +222,7 @@ h3 {
   animation: circle 1.2s infinite;
 }
 .resume .func .work ul li:hover span, .resume .func .edu ul li:hover span {
-  color: #e07a5f;
+  color: #00FFFF;
 }
 @keyframes circle {
   from {
@@ -252,7 +252,7 @@ h3 {
   width: 7px;
   height: 7px;
   /*change color for backgroun and border*/
-  border: 3px solid #ffca01;
+  border: 3px solid #4f4f4f;
   background: #fcfcfc;
   border-radius: 50%;
   left: 0;
@@ -261,7 +261,7 @@ h3 {
 .resume .func .work ul li::after, .resume .func .edu ul li::after {
   width: 3px;
   height: 100%;
-  background: #ffca01;
+  background: #4f4f4f;
   /* change the color of the lines for the top*/
   left: 5px;
   top: 0;
@@ -291,7 +291,7 @@ h3 {
   color: #e07a5f;
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #e07a5f;
+  background: #00f1ff;
   box-shadow: 0 0 0 1px #e07a5f;
 }
 .resume .func .skills-prog ul li span {
@@ -309,7 +309,7 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #ffca01;
+  background: #4f4f4f;
   /* color for the bars here*/
   box-shadow: 0 0 0 #8d9e78;
   border-radius: 5px;
@@ -323,7 +323,7 @@ h3 {
   position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #e07a5f;
+  stroke: #00FFFF;
   stroke-width: 4px;
 }
 .resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
@@ -336,11 +336,11 @@ h3 {
 }
 .resume .func .skills-soft ul li svg circle {
   stroke-width: 1px;
-  stroke: #cdcdcd;
+  stroke: #4f4f4f;
 }
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: #ffca01;
+  stroke: #4f4f4f;
   /* you can change the color of the circles here*/
   stroke-linecap: round;
 }
@@ -372,7 +372,7 @@ h3 {
   transform: scale(1.2);
 }
 .resume .func .interests-items div:hover span {
-  color: #e07a5f;
+  color: #00FFFF;
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div i {
@@ -381,7 +381,7 @@ h3 {
   height: 60px;
   line-height: 60px;
   /*chnage the color of the icons*/
-  color: #ff7438;
+  color: #00FFFF;
   transition-duration: 0.3s;
   /*.guitar
    * display: block
